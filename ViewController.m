@@ -19,10 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSString *str = @"Parameter String with table name...like below line";
+ -->   NSString *str = @"Parameter String with table name...like below line";
    //tableName=country_master&afterWhere=is_delete = 0&field=country_master.country_master_id,country_master.country_name&numOfRecord=all&start=0&beforeWhere=
    
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"Webservice Name like Below line"]];
+-->    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"Webservice Name like Below line"]];
     //http://203.88.133.140/myshalewell_live/webservice/webservice_pagination.php
     [request setHTTPMethod:@"POST"];
     
